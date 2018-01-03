@@ -1,7 +1,7 @@
-So there are three components of a website: 
+So there are three components of a website front-end: 
 Content: done in HTML
 Styling: done in CSS
-Backend/Interactivity: done in JS
+Interactivity: done in JS
 
 HTML: the structure of the content that goes inside the tags. Browsers provide default
     style, but its not the best.
