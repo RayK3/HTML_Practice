@@ -1,0 +1,82 @@
+Document Structure: 
+    The Header Tag: a container that holds other elements, like <body>, 
+    but it specifically holds elements for the website's header.
+    
+    Navigation: 
+    -A new tag, which is very commonly used, is <ul> which stands for unordered
+    list.
+    -Inside an unordered list there are list tags, <li> that contain the members
+    of the list.
+    -Together, the <ul> and <li> tags create bullet points
+    -<a> is an anchor link tag, which links to another page. This tag has an attribut
+    href, which controls the URL the browser opens when you click the link on the page where
+    href stands for hypertext reference
+    -a full line could look something like this:
+        ex: <ul>
+                <li><a href="...">Hello</a></li>
+            </ul>
+ 
+CSS reset external CSS file:
+    -There are two methods to add CSS into an HTML file. The first is <style.
+    and the second is <link>.
+    -<link> tag lets you include CSS from an external file rather than keeping
+    it all written out in the HTML file
+    -<link> tag needs two attributes: 
+        -href - a URL where the Css file lives
+        -rel - which should always be set to "stylesheet"
+        
+Navigation Styles:
+    -Every HTML element has a display property, which can be set to various things
+    such as inline or block
+    -this is the same as the types of tags that display inline or block behavious from
+    the last Project
+    -padding in detail: you can control how much padding is on any side individually of a 
+    element by putting in the individual values
+    ex: padding: 0px 10px 0 px 10px (top, right, bottom, left)
+    -link styles need to be explicitly set, as they do not inherit from their parent
+    
+Header Styles:
+    -the same as what you have done previously
+    -margin creates space on the outside of an element, while padding creates space
+    on the inside
+    -border takes three values, the first is the size in pixels (7px) the second is the type 
+    of border (solid), and the third is the colour
+    -border-radius sets the curve of the edges of the border to some radius in pixels.
+    
+Adaptive Content: allows the content of the page to dynamically fit the screen 
+    that it is on.
+    -This relies heavily on one margin command:
+        margin: 0 auto;
+    This makes the margin on the top and bottom 0 while the left and right are auto
+    -This also relies on the width of the page to not be constant, so instead of 
+    using width: 500px, use max-width: 500px
+    
+    -Media Query, is basically an if statement that only activates a style if the 
+    condition is met. Its syntax is very easy
+        ex: @media (max-width: 500px) {
+              body {
+                background: red;
+              }
+            }
+Hex Color Codes:
+    -Begins with a #, then it has three characters corresponding to red, green, and blue
+    ex: #F00, where the red is full and the green and blue are zero
+RGBA:
+    -Another way to mix colours, where the a represents alpha (transparency)
+    -the first three numbers corresponding to red, green, and blue are on a scale 
+    from 0-255, and the third number is on a scale from 0-1
+    
+Basic JQuery JS:
+    $("button").on("click", function() {
+      alert("A button was clicked!")
+    });
+    -first selects the element, whose event we want to listen to.
+    -calls the on function that takess an event-type and a function
+    
+    
+
+            
+    
+
+    
+    
