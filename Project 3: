@@ -1,0 +1,31 @@
+The DIV tag: allows you to style a group of elements with the same CSS,
+and is also one of the most multi-purpose tags that we have
+
+Classes: let you name and group HTML tags
+    -they are attributes of tags
+    -can individually style classes in the style sheet by labelling them
+    .class followed by the proper CSS code
+   
+position: absolute; breaks it out of the documents regular flow
+bottom: sets the distance away from the bottom
+
+Line break tag: <br />
+    This ends in a slash, because it is a self-closing tag
+Small tag: preserves visual hierarchy
+
+Advanced Layout:
+    Span Tag: used inside another tag to make any bit of content display 
+    differently from the rest of the stuff in the same tag
+    -spans are like the inline equivalent of divs, so their text-align 
+    styling must be replaced with float.
+    
+Gradients: Linear or Radial (self explanatory):
+ex:
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+(-moz-)
+Transitions: -webkit-transition: height .5s;
+-moz-transition: height .5s;
+
+
+    
+    
