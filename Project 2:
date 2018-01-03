@@ -8,8 +8,8 @@ Document Structure:
     -Inside an unordered list there are list tags, <li> that contain the members
     of the list.
     -Together, the <ul> and <li> tags create bullet points
-    -<a> is an anchor link tag, which links to another page. This tag has an attribut
-    href, which controls the URL the browser opens when you click the link on the page where
+    -<a> is an anchor link tag, which links to another page. This tag has an attribute
+    href, which controls the URL the browser opens when you click the link on the page. In this case 
     href stands for hypertext reference
     -a full line could look something like this:
         ex: <ul>
@@ -17,12 +17,12 @@ Document Structure:
             </ul>
  
 CSS reset external CSS file:
-    -There are two methods to add CSS into an HTML file. The first is <style.
+    -There are two methods to add CSS into an HTML file. The first is <style>.
     and the second is <link>.
     -<link> tag lets you include CSS from an external file rather than keeping
     it all written out in the HTML file
     -<link> tag needs two attributes: 
-        -href - a URL where the Css file lives
+        -href - a URL where the CSS file lives
         -rel - which should always be set to "stylesheet"
         
 Navigation Styles:
