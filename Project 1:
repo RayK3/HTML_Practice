@@ -1,0 +1,66 @@
+So there are three components of a website: 
+Content: done in HTML
+Styling: done in CSS
+Backend/Interactivity: done in JS
+
+HTML: the structure of the content that goes inside the tags. Browsers provide default
+    style, but its not the best.
+CSS: controls the style of the HTML content. It lets you change colours, fonts, 
+    layout, and more.
+ 
+Types of URL's: 
+    absolute: they include everything you are used to, http://...
+    relative: they only include the directory, but they only work if they use
+    the same domain as the current page
+
+HTML Basics: 
+    HTML documents use <tags> to tell the browser how to format our content
+        ex: First level heading <h1>, paragraph <p>
+    To get information from the user, use an <input> tag
+        ex: "email" and "submit"
+        ex: <input type="email"> <-- type is an attribute, and "email" is the value
+        Attributes are kind of like options for each tag
+    There is an attribute called placeholder that allows us to add default text to 
+    our input.
+        ex: <input type="email" placeholder="Your email">
+        
+ CSS Basics:
+    Easiest way to add CSS to an HTML file is by using a <style> tag
+    ex:   h1 {
+            text-align: centre; //This is not exactly like JSON
+          }
+        
+    Some common styles are: 
+        text-align: (left, center, right, justified)
+        background: sets the colour of the background (black, teal, etc.; rgb(0,0.0))
+        -can also be set to the url of an image: url("...");
+        background-size: cover; (or something else that we dont know yet)
+        background-position: center; ("")
+        color: sets the colour of any text
+        font-family: sets the font of the text
+        font-size: sets the size of the font in pixels
+        border: the size of something?
+        padding: amount of space between the edge of an element and the stuff inside it
+        
+        
+    
+    The <body> tag is meant to apply general conditions into all of its children tags
+    The <title> tag controls what shows up in the browser tab. 
+    
+Images and Form Styling: 
+    Add images using the <img> tag with a source attribute
+        ex: <img src="/documents/picture.png">
+    
+    You can select an individual element by using square brackets
+        ex: input[type="submit"] {
+            background: red;
+            color: white;
+        }
+        
+    
+    
+    
+    
+          
+    
+    
